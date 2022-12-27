@@ -10,6 +10,11 @@
     <link>https://qyint-community.github.io</link>
     <description>did it work?</description>
   </item>
+  <item>
+    <title>Test2</title>
+    <link>https://qyint-community.github.io</link>
+    <description>did it work again?</description>
+  </item>
 
 </channel>
 </rss> 

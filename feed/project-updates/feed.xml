@@ -2,7 +2,14 @@
 <channel>
   <title>QYINT Project Updates</title>
   <link>https://qyint-community.github.io</link>
-  <description>Project UPdates for Qyint Projects</description>
+  <description>Project Updates for Qyint Projects</description>
+
+  <item>
+    <title>Introducing RSS Feeds</title>
+    <link>https://qyint-community.github.io/feed/project-updates/post1.html</link>
+    <description>[🇺🇳] Find out more about how and why we use RSS Feeds!</description>
+    <pubDate>Tue, 27 Dec 2022 22:46:00 +0100</pubDate>
+  </item>
 
 </channel>
-</rss> 
+</rss>

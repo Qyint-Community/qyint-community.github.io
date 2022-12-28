@@ -5,6 +5,13 @@
   <description>Community Updates for the Qyint Community</description>
 
   <item>
+    <title>Matrix Space + Discord Bridge</title>
+    <link>https://qyint-community.github.io/feed/qyint-community-feed/post1.html</link>
+    <description>[🇺🇳] We have created a Matrix Space again! And it is bridged to Discord!</description>
+    <pubDate>Tue, 28 Dec 2022 06:44:00 +0100</pubDate>
+  </item>
+  
+  <item>
     <title>Example Post</title>
     <link>https://qyint-community.github.io/feed/qyint-community-feed/post0.html</link>
     <description>[🇺🇳] This is an example post. Dont mind it.</description>

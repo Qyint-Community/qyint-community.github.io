@@ -5,6 +5,13 @@
   <description>Community Updates for the Qyint Community</description>
 
   <item>
+    <title>Website Update, new Keys Repo</title>
+    <link>https://qyint-community.github.io/feed/qyint-community-feed/post2.html</link>
+    <description>[🇺🇳] Dark Mode and German Translation removed, all Keys moved to new Repository</description>
+    <pubDate>Tue, 29 Dec 2022 07:45:00 +0100</pubDate>
+  </item>
+  
+  <item>
     <title>Matrix Space + Discord Bridge</title>
     <link>https://qyint-community.github.io/feed/qyint-community-feed/post1.html</link>
     <description>[🇺🇳] We have created a Matrix Space again! And it is bridged to Discord!</description>

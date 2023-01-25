@@ -29,6 +29,16 @@ a {
 .right-icon a {
   text-decoration: none;
 }
+.bottomcontainer {
+  position: relative;
+}
+.bottomright {
+  height: 100;
+  width: 150;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 .title {
   text-align: center;

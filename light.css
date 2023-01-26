@@ -39,6 +39,13 @@ a {
   bottom: 0;
   right: 0;
 }
+.bottomleft {
+  height: 100;
+  width: 150;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 .title {
   text-align: center;

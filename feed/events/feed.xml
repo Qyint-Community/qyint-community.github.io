@@ -3,6 +3,12 @@
   <title>QYINT Events</title>
   <link>https://qyint-community.github.io</link>
   <description>Event Notifications for the Qyint Community</description>
-
+  
+  <item>
+    <title>TEST</title>
+    <description>test post for Feed Bot on revolt.chat --- DELETE!</description>
+    <pubDate>Tue, 30 Apr 2023 19:07:00 +0100</pubDate>
+  </item>
+  
 </channel>
 </rss> 

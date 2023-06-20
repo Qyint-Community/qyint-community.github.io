@@ -2,4 +2,4 @@
 - - -
 
 # Licensing
-This Website is published under the QYINT-LICENSE.
+This Website is published under the GPLv3

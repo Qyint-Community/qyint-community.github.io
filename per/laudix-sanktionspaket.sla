@@ -88,17 +88,17 @@
         </Sections>
         <MASTERPAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal" MNAM="" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="Normal" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGEOBJECT XPOS="100" YPOS="20" OwnPage="0" ItemID="1578086288" PTYPE="6" WIDTH="612.406417112299" HEIGHT="70.0582887700535" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Rich Black" PCOLOR2="Black" PLINEART="1" path="M0 0 L612.406 0 L612.406 70.0583 L0 70.0583 L0 0 Z" copath="M0 0 L612.406 0 L612.406 70.0583 L0 70.0583 L0 0 Z" gXpos="100" gYpos="20" gWidth="0" gHeight="0" LAYER="0"/>
-        <PAGEOBJECT XPOS="106" YPOS="20" OwnPage="0" ItemID="1577977072" PTYPE="2" WIDTH="70.3529411764706" HEIGHT="70.3529411764706" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.549632352941177" LOCALSCY="0.549632352941177" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../Downloads/icon-l.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L70.3529 0 L70.3529 70.3529 L0 70.3529 L0 0 Z" copath="M0 0 L70.3529 0 L70.3529 70.3529 L0 70.3529 L0 0 Z" gXpos="106" gYpos="20" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="183.989304812834" YPOS="42.3529411764706" OwnPage="0" ItemID="1578081984" PTYPE="4" WIDTH="526.716577540107" HEIGHT="26.9732620320855" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L526.717 0 L526.717 26.9733 L0 26.9733 L0 0 Z" copath="M0 0 L526.717 0 L526.717 26.9733 L0 26.9733 L0 0 Z" gXpos="183.989304812834" gYpos="42.3529411764706" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="100" YPOS="20" OwnPage="0" ItemID="1032928196" PTYPE="6" WIDTH="612.406417112299" HEIGHT="70.0582887700535" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Rich Black" PCOLOR2="Black" PLINEART="1" path="M0 0 L612.406 0 L612.406 70.0583 L0 70.0583 L0 0 Z" copath="M0 0 L612.406 0 L612.406 70.0583 L0 70.0583 L0 0 Z" gXpos="100" gYpos="20" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="106" YPOS="20" OwnPage="0" ItemID="1032974244" PTYPE="2" WIDTH="70.3529411764706" HEIGHT="70.3529411764706" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.549632352941177" LOCALSCY="0.549632352941177" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../Downloads/icon-l.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L70.3529 0 L70.3529 70.3529 L0 70.3529 L0 0 Z" copath="M0 0 L70.3529 0 L70.3529 70.3529 L0 70.3529 L0 0 Z" gXpos="106" gYpos="20" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="183.989304812834" YPOS="42.3529411764706" OwnPage="0" ItemID="1032939108" PTYPE="4" WIDTH="526.716577540107" HEIGHT="26.9732620320855" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L526.717 0 L526.717 26.9733 L0 26.9733 L0 0 Z" copath="M0 0 L526.717 0 L526.717 26.9733 L0 26.9733 L0 0 Z" gXpos="183.989304812834" gYpos="42.3529411764706" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle HyphenConsecutiveLines="0" MinGlyphShrink="1" FONT="C059 Bold" FONTSIZE="25" FCOLOR="White"/>
-                <ITEXT FONT="C059 Bold" FONTSIZE="25" FCOLOR="White" CH="Qyint General Assembly | 29.07.2023"/>
+                <ITEXT FONT="C059 Bold" FONTSIZE="25" FCOLOR="White" CH="Qyint  I. General Assembly 28.07.2023"/>
                 <trail HyphenConsecutiveLines="0" MinGlyphShrink="1"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="139.636363636364" YPOS="119.488235294118" OwnPage="0" ItemID="1578067536" PTYPE="6" WIDTH="532.877005347594" HEIGHT="651.857754010697" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.8" PCOLOR2="Black" PLINEART="1" LOCK="1" path="M0 0 L532.877 0 L532.877 651.858 L0 651.858 L0 0 Z" copath="M0 0 L532.877 0 L532.877 651.858 L0 651.858 L0 0 Z" gXpos="139.636363636364" gYpos="119.488235294118" gWidth="0" gHeight="0" LAYER="0"/>
-        <PAGEOBJECT XPOS="153.577540106952" YPOS="132.449197860963" OwnPage="0" ItemID="1578058032" PTYPE="4" WIDTH="505.92513368984" HEIGHT="629.903743315508" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L505.925 0 L505.925 629.904 L0 629.904 L0 0 Z" copath="M0 0 L505.925 0 L505.925 629.904 L0 629.904 L0 0 Z" gXpos="153.577540106952" gYpos="132.449197860963" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="139.636363636364" YPOS="119.488235294118" OwnPage="0" ItemID="1033080612" PTYPE="6" WIDTH="532.877005347594" HEIGHT="651.857754010697" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.8" PCOLOR2="Black" PLINEART="1" LOCK="1" path="M0 0 L532.877 0 L532.877 651.858 L0 651.858 L0 0 Z" copath="M0 0 L532.877 0 L532.877 651.858 L0 651.858 L0 0 Z" gXpos="139.636363636364" gYpos="119.488235294118" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="153.577540106952" YPOS="132.449197860963" OwnPage="0" ItemID="1033042292" PTYPE="4" WIDTH="505.92513368984" HEIGHT="629.903743315508" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L505.925 0 L505.925 629.904 L0 629.904 L0 0 Z" copath="M0 0 L505.925 0 L505.925 629.904 L0 629.904 L0 0 Z" gXpos="153.577540106952" gYpos="132.449197860963" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT FONT="C059 Bold Italic" FONTSIZE="20" CH="Sei gegrüßt, Laudix!"/>
@@ -111,21 +111,18 @@
                 <ITEXT FONTSIZE="20" CH="- du wirst deinen Mitgliedsstatus für mindestens einen Monat verlieren. "/>
                 <ITEXT FONT="C059 Italic" FONTSIZE="20" CH="(bis zum 27.08.)"/>
                 <para ALIGN="0" LINESP="19" wordTrack="1"/>
-                <ITEXT FONTSIZE="20" CH="- du wirst für 2 Wochen aus unseren Communities entfernt. "/>
-                <ITEXT FONT="C059 Italic" FONTSIZE="20" CH="(bis zum 12.08.)"/>
-                <para ALIGN="0" LINESP="19" wordTrack="1"/>
                 <ITEXT FONTSIZE="20" CH="- du darfst danach auf Bewährung wieder beitreten, heißt du wirst permanent verbannt, solltest du erneut eine solche Regel brechen."/>
                 <para ALIGN="0" LINESP="19" wordTrack="1"/>
-                <ITEXT FONTSIZE="20" CH="- du erhältst einen Strike."/>
+                <ITEXT FONTSIZE="20" CH="- du bist dazu verpflichtet &quot;The Worlds hardest Game&quot; auf deinem Youtube Kanal durchzuspielen."/>
                 <para ALIGN="0" LINESP="19" wordTrack="1"/>
                 <para ALIGN="0" LINESP="19" wordTrack="1"/>
                 <ITEXT FONTSIZE="20" CH="Du hast, wie jeder, das Recht auf eine erneute Anhörung vor dem Administratorenteam."/>
                 <para ALIGN="4" LINESP="19" wordTrack="1"/>
                 <para ALIGN="4" LINESP="19" wordTrack="1"/>
-                <ITEXT FONTSIZE="20" CH="Zusätzlich sollst du die Möglichkeit bekommen, an einem "/>
-                <ITEXT FONT="C059 Bold Italic" FONTSIZE="20" CH="Communityprojekt"/>
-                <ITEXT FONTSIZE="20" CH=" mitzuarbeiten, wodurch du deinen Strike verlierst."/>
+                <ITEXT FONTSIZE="20" CH="Das Spiel spielst du unter Aufsicht von Mimi und Lord_Flo. Genauere Anweisungen"/>
                 <para ALIGN="4" LINESP="19" wordTrack="1"/>
+                <ITEXT FONTSIZE="20" CH="bekommst du auf Revolt."/>
+                <para ALIGN="0" LINESP="20" wordTrack="1"/>
                 <para ALIGN="4" LINESP="19" wordTrack="1"/>
                 <para ALIGN="4" LINESP="19" wordTrack="1"/>
                 <para ALIGN="4" LINESP="19" wordTrack="1"/>
@@ -135,8 +132,8 @@
                 <trail ALIGN="0" LINESP="19" wordTrack="1"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="427.379679144385" YPOS="762.737967914439" OwnPage="0" ItemID="1579074576" PTYPE="6" WIDTH="245.262032085561" HEIGHT="8.85561497326194" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L245.262 0 L245.262 8.85561 L0 8.85561 L0 0 Z" copath="M0 0 L245.262 0 L245.262 8.85561 L0 8.85561 L0 0 Z" gXpos="427.379679144385" gYpos="762.737967914439" gWidth="0" gHeight="0" LAYER="0"/>
-        <PAGEOBJECT XPOS="427.919786096257" YPOS="750.486631016043" OwnPage="0" ItemID="1578053344" PTYPE="4" WIDTH="230.080213903743" HEIGHT="18.0962566844919" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L230.08 0 L230.08 18.0963 L0 18.0963 L0 0 Z" copath="M0 0 L230.08 0 L230.08 18.0963 L0 18.0963 L0 0 Z" gXpos="427.919786096257" gYpos="750.486631016043" gWidth="0" gHeight="0" ALIGN="2" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="427.379679144385" YPOS="762.737967914439" OwnPage="0" ItemID="1033895652" PTYPE="6" WIDTH="245.262032085561" HEIGHT="8.85561497326194" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L245.262 0 L245.262 8.85561 L0 8.85561 L0 0 Z" copath="M0 0 L245.262 0 L245.262 8.85561 L0 8.85561 L0 0 Z" gXpos="427.379679144385" gYpos="762.737967914439" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="427.919786096257" YPOS="750.486631016043" OwnPage="0" ItemID="1033013300" PTYPE="4" WIDTH="230.080213903743" HEIGHT="18.0962566844919" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L230.08 0 L230.08 18.0963 L0 18.0963 L0 0 Z" copath="M0 0 L230.08 0 L230.08 18.0963 L0 18.0963 L0 0 Z" gXpos="427.919786096257" gYpos="750.486631016043" gWidth="0" gHeight="0" ALIGN="2" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle ALIGN="2"/>
                 <ITEXT FONT="C059 Italic" CH="Mimi, Qyint Administrator"/>

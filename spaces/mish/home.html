@@ -1,0 +1,219 @@
+<html>
+<head>
+  <title>Home</title>
+  <link rel="icon" type="image/x-icon" href="../../per/mish.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="../../feed/community-feed.html" class="left-icon">
+      <img src="../../icon-l.png"></i>
+    </a>
+    <div href="navtext">
+      <h1>mi.sh</h1>
+    </div>
+    <div class="right-icon">
+        <a href="../../mi.conf.html"><i class="fas fa-bars"></i></a>
+    </div>
+  </div>
+
+  <div style="display:flex; justify-content: space-between; align-items: center; margin-bottom: 40px;" class="center-box">
+    <p style="flex: 1; text-align:center;" id="quote"></p>
+    <img style="height:200px; margin-left: 10px;" id="image">
+</div>
+<script>
+    const textOptions = [
+        {
+            text: "Proletarier aller Länder, vereinigt euch!<br>~ Karl Marx ☭",
+            image: "./per/karl-marx.webp"
+        },
+        {
+            text: "Die Geschichte aller bisherigen Gesellschaft ist die Geschichte von Klaßenkämpfen.<br>~ Karl Marx ☭",
+            image: "./per/karl-marx.webp"
+        },
+        {
+            text: "Die Idee, daß ein jeder sich aus eigener Kraft emporarbeiten könne, ist ein Mythos, der die Intereßen der herrschenden Klaßen bedient.<br>~ Friedrich Engels ☭",
+            image: "./per/friedrich-engels.webp"
+        },
+        {
+            text: "Die Arbeiter haben kein Vaterland. Man kann ihnen nicht nehmen, was sie nicht haben.<br>~ Friedrich Engels ☭",
+            image: "./per/friedrich-engels.webp"
+        },
+        {
+            text: "Freiheit ist immer Freiheit des anders Denkenden.<br>~ Rosa Luxemburg ☭",
+            image: "./per/rosa-luxemburg.webp"
+        },
+        {
+            text: "Die Revolution wird sich morgen schon raßelnd wieder in die Höh richten und zu eurem Schrecken mit Posaunenklang verkünden:<br>\"ich war, ich bin, ich werde sein!\"<br>~ Rosa Luxemburg ☭",
+            image: "./per/rosa-luxemburg.webp"
+        },
+        {
+            text: "Man kann die Menschen nur richtig verstehen, wenn man sie liebt.<br>~ Rosa Luxemburg ☭",
+            image: "./per/rosa-luxemburg.webp"
+        },
+        {
+            text: "Entfremdet und entwürdigt ist nicht nur der, der kein Brot hat, sondern auch der, der keinen Anteil an den großen Gütern der Menschheit hat.<br>~ Rosa Luxemburg ☭",
+            image: "./per/rosa-luxemburg.webp"
+        },
+        {
+            text: "Selbstkritik - rücksichtslose, grausame, bis auf den Grund der Dinge gehende Selbstkritik ist Lebensluft und Lebenslicht der proletarischen Bewegung.<br>~ Rosa Luxemburg ☭",
+            image: "./per/rosa-luxemburg.webp"
+        },
+        {
+            text: "Der Hauptfeind steht im eigenen Land!<br>~ Karl Liebknecht ☭",
+            image: "./per/karl-liebknecht.webp"
+        },
+        {
+            text: "Die Arbeiterklaße darf sich nicht durch die Phrase vom Frieden täuschen laßen. Es gibt keinen Frieden zwischen Ausbeutern und Ausgebeuteten, zwischen Kapitalisten und Proletariern.<br>~ Karl Liebknecht ☭",
+            image: "./per/karl-liebknecht.webp"
+        },
+        {
+            text: "Es gibt keine Freiheit des Einzelnen ohne soziale Freiheit, und es gibt keine soziale Freiheit ohne die Freiheit des Einzelnen.<br>~ Ernst Thälmann ☭",
+            image: "./per/ernst-thälmann.webp"
+        },
+        {
+            text: "Die wahren Revolutionäre sind geführt von großen Gefühlen der Liebe.<br>~ Che Guevara ☭",
+            image: "./per/che-guevara.webp"
+        },
+        {
+            text: "Sei realistisch; fordere das Unmögliche!<br>~ Che Guevara ☭",
+            image: "./per/che-guevara.webp"
+        },
+        {
+            text: "Verurteile mich. Das ist egal. Die Geschichte wird mich freisprechen.<br>~ Fidel Castro ☭",
+            image: "./per/fidel-castro.webp"
+        },
+        {
+            text: "Sie reden über das Scheitern des Sozialismus. Aber wo bleibt der Erfolg des Kapitalismus in Afrika, Asien und Lateinamerika?<br>~ Fidel Castro ☭",
+            image: "./per/fidel-castro.webp"
+        },
+        {
+            text: "Der Imperialismus ist die höchste Stufe des Kapitalismus.<br>~ Vladimir Lenin ☭",
+            image: "./per/vladimir-lenin.webp"
+        },
+        {
+            text: "Die Macht muß von unten nach oben aufgebaut werden.<br>~ Vladimir Lenin ☭",
+            image: "./per/vladimir-lenin.webp"
+        },
+        {
+            text: "Vertraue, aber überprüfe.<br>~ Vladimir Lenin ☭",
+            image: "./per/vladimir-lenin.webp"
+        },
+        {
+            text: "Die Größten im Kampf sind nicht die, die nie gefallen sind, sondern die, die jedes Mal wieder aufstehen, wenn sie fallen.<br>~ Hồ Chí Minh ☭",
+            image: "./per/ho-chi-minh.webp"
+        },
+        {
+            text: "Die revolutionären Soldaten sind die unverzichtbaren Söhne des Volkes. Sie sind in keiner Hinsicht die Diener der Regierung oder des Parteikomitees.<br>~ Mao Zedong ☭",
+            image: "./per/mao-zedong.webp"
+        },
+        {
+            text: "Niemand stellte die Frage \"Wer ist Serbe, wer ist Kroate, wer ist Muslim?\" Wir waren alle ein Volk, so war es damals, und ich denke immer noch, daß es heute so ist.<br>~ Tito ☭",
+            image: "./per/tito.webp"
+        },
+        {
+            text: "Freiheit kann nicht geschenkt werden; sie wird erobert.<br>~ Thomas Sankara ☭",
+            image: "./per/thomas-sankara.webp"
+        },
+        {
+            text: "Ich bin überzeugt, daß es nur einen Weg gibt, um diese schwerwiegenden Übel zu beseitigen, nämlich durch den Aufbau einer sozialistischen Wirtschaft, begleitet von einem Bildungssystem, das auf soziale Ziele ausgerichtet ist.<br>~ Albert Einstein ☭",
+            image: "./per/albert-einstein.webp"
+        },
+        {
+            text: "Es scheint immer unmöglich, bis es getan ist.<br>~ Nelson Mandela ☭",
+            image: "./per/nelson-mandela.webp"
+        },
+        {
+            text: "Die Unterdrückung von Menschen kann nur so lange dauern, wie sie sich nicht selbst unterdrücken.<br>~ Nelson Mandela ☭",
+            image: "./per/nelson-mandela.webp"
+        },
+        {
+            text: "Die Medien dienen oft nicht dazu, Informationen bereitzustellen, sondern Meinungen zu erzeugen.<br>~ Noam Chomsky ☭",
+            image: "./per/noam-chomsky.webp"
+        },
+        {
+            text: "Die Menschen sollten nicht Angst vor ihrer Regierung haben. Die Regierung sollte Angst vor ihren Menschen haben.<br>~ Noam Chomsky ☭",
+            image: "./per/noam-chomsky.webp"
+        },
+    ];
+    function getRandomOption() {
+        const randomIndex = Math.floor(Math.random() * textOptions.length);
+        return textOptions[randomIndex];
+    }
+    function updateRandomTextAndImage() {
+        const randomOption = getRandomOption();
+        document.getElementById("quote").innerHTML = randomOption.text;
+        document.getElementById("image").src = randomOption.image;
+    }
+    updateRandomTextAndImage();
+</script>
+
+  <div class="center-box" style="padding:0px; width:300px;  border:0px">
+    <iframe style="height:20px" title="Radio Rebelde" src="https://icecast.teveo.cu/zrXXWK9F"></iframe>
+  </div>
+
+  <div style="margin-top:40px; margin-bottom:30px" class="boxes">
+    <a style="color:red" href="https://app.revolt.chat" class="soc-box">
+      <h1><i class="fas fa-hand-fist"></i></h1>
+    </a>
+    <div style="color:#0082c9" class="soc-box">
+      <h1><i class="fas fa-cloud"></i></h1>
+    </div>
+    <a style="color:#7254f8" href="https://mail.proton.me/u/0/inbox" class="soc-box">
+      <h1><i class="fas fa-envelope"></i></h1>
+    </a>
+  </div>
+
+  <div class="boxes">
+    <a style="color:red" href="https://www.youtube.com/feed/subscriptions" class="soc-box-small">
+      <h2><i class="fab fa-youtube"></i></h2>
+    </a>
+    <a style="color:#9146FF" href="https://www.twitch.tv/" class="soc-box-small">
+      <h2><i class="fab fa-twitch"></i></h2>
+    </a>
+    <div style="width: 1%; margin: 5px; margin-top: 10px;" class="soc-box-small">
+        <h3>|</h3>
+    </div>
+    <a style="color:#eddfca" href="https://lichess.org/" class="soc-box-small">
+      <h2><i class="fas fa-chess-knight"></i></h2>
+    </a>
+    <a style="color:#3fc979" href="https://geotastic.net/home/" class="soc-box-small">
+      <h2><i class="fas fa-earth-europe"></i></h2>
+    </a>
+    <a style="color:#c9b393" href="https://imois.in/games/travle/" class="soc-box-small">
+      <h2><i class="fas fa-compass"></i></h2>
+    </a>
+    <a style="color:#88cbf8" href="https://worldle.teuteuf.fr/" class="soc-box-small">
+      <h2><i class="fas fa-map"></i></h2>
+    </a>
+    <a style="color:#ffcc58" href="https://flagle-game.com/" class="soc-box-small">
+      <h2><i class="fas fa-flag"></i></h2>
+    </a>
+    <div style="width: 1%; margin: 5px; margin-top: 10px;" class="soc-box-small">
+        <h3>|</h3>
+    </div>
+    <a style="color:red" href="https://www.marxists.org/archive/index.htm" class="soc-box-small">
+      <h2><i class="fas fa-book-open"></i></h2>
+    </a>
+    <a style="color:#16b8fe" href="https://www.twitch.tv/" class="soc-box-small">
+      <h2><i class="fas fa-newspaper"></i></h2>
+    </a>
+    <a style="color:#017bd0" href="https://www.radiorebelde.cu/english/" class="soc-box-small">
+      <h2><i class="fas fa-radio"></i></h2>
+    </a>
+    <div style="width: 1%; margin: 5px; margin-top: 10px;" class="soc-box-small">
+        <h3>|</h3>
+    </div>
+    <a style="color:#5ea827" href="https://www.base64decode.org/" class="soc-box-small">
+      <h2><i class="fas fa-hashtag"></i></h2>
+    </a>
+    <a style="color:#2185d0" href="https://www.unixtimestamp.com/" class="soc-box-small">
+      <h2><i class="fas fa-clock"></i></h2>
+    </a>
+  </div>
+
+  <a href="https://www.youtube.com/playlist?list=PLg3uOTaRezwx-AGMrz3QZi-DUSAtYhxg9"><div class=bottomcontainer><img src="../../per/transrights.png" alt="Image" class="bottomright"></div></a>
+  <a href="https://www.youtube.com/watch?v=hN-iNTFQ51M&list=PL3-Zr0Ym0Fgyi7WMET_XRZpfKGJ3ZWAMN"><div class=bottomcontainer><img src="../../per/orcrights.png" alt="Image" class="bottomleft"></div></a>
+</body>
+</html>
